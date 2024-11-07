@@ -2,6 +2,7 @@ Package: MultiSppMaturityDelayStability
 Type: Package
 Title: Stability Analysis for Multispecies Model with Delayed Maturity
 Version: 0.1.0
+Date: 2024-11-08
 Authors@R: person(c("Geoffrey", "R."), "Hosack", email = "geoff.hosack@csiro.au",
   role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6462-6817"))
 Copyright: Commonwealth Scientific and Industrial Research Organisation (CSIRO) 
@@ -19,6 +20,7 @@ Suggests:
   viridisLite,
   xtable
 License: GPL (>= 3)
+URL: https://github.com/csiro-risk-assessment/MultiSppMaturityDelayStability
 Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr

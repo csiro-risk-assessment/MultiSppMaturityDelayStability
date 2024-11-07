@@ -12,6 +12,13 @@ mosquito species with delayed maturity as supplementary material for the
 article Stability of difference equations with interspecific density
 dependence, competition, and maturation delays.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/csiro-risk-assessment/MultiSppMaturityDelayStability}
+}
+
+}
 \author{
 \strong{Maintainer}: Geoffrey R. Hosack \email{geoff.hosack@csiro.au} (\href{https://orcid.org/0000-0002-6462-6817}{ORCID})
 
