@@ -22,5 +22,11 @@ Useful links:
 \author{
 \strong{Maintainer}: Geoffrey R. Hosack \email{geoff.hosack@csiro.au} (\href{https://orcid.org/0000-0002-6462-6817}{ORCID})
 
+Authors:
+\itemize{
+  \item Maud El-Hachem \email{maud.el-hachem@csiro.au} (\href{https://orcid.org/0000-0002-9312-6109}{ORCID})
+  \item Nicholas J. Beeton \email{nick.beeton@csiro.au} (\href{https://orcid.org/0000-0002-8513-3165}{ORCID})
+}
+
 }
 \keyword{internal}

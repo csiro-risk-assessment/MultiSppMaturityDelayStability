@@ -1,7 +1,7 @@
 ---
 title: "Stability for Multispecies Competition with Delayed Maturity"
-author: "Geoffrey R. Hosack"
-date: "2024-11-07"
+author: "Geoffrey R. Hosack, Maud El-Hachem, Nicholas J. Beeton"
+date: "2024-11-26"
 ---
 
 <!--
@@ -203,9 +203,9 @@ png("nicheTernary.png", width = 480*1, height = 480,
     pointsize = 24)
 par(mar = rep(0.2, 4))
 
-TernaryPlot(alab = expression(paste("Percentage of  ", italic(A.~arabiensis))),
-            blab = expression(paste("Percentage of  ", italic(A.~coluzzii))),
-            clab = expression(paste("Percentage of  ", italic(A.~gambiae), "  s.s.")))
+TernaryPlot(alab = expression(paste("Percentage of  ", italic(An.~arabiensis))),
+            blab = expression(paste("Percentage of  ", italic(An.~coluzzii))),
+            clab = expression(paste("Percentage of  ", italic(An.~gambiae), "  s.s.")))
 mapP <- rbind(x = tri["x", ], y = tri["y", ], z = vP,
               down = tri["triDown", ])
 ColourTernary(mapP, spectrum = viridisLite::viridis(256L, alpha = 0.6))
@@ -348,9 +348,9 @@ for (i in 1:ncol(tern.xy)) {
 png("optTernary.png", width = 480*1, height = 480, pointsize = 24)
 par(mar = rep(0.2, 4))
 
-TernaryPlot(alab = expression(paste("Percentage of  ", italic(A.~arabiensis))),
-            blab = expression(paste("Percentage of  ", italic(A.~coluzzii))),
-            clab = expression(paste("Percentage of  ", italic(A.~gambiae), "  s.s.")))
+TernaryPlot(alab = expression(paste("Percentage of  ", italic(An.~arabiensis))),
+            blab = expression(paste("Percentage of  ", italic(An.~coluzzii))),
+            clab = expression(paste("Percentage of  ", italic(An.~gambiae), "  s.s.")))
 mapOpt <- rbind(x = tri["x", ], y = tri["y", ], z = (vOpt),
                 down = tri["triDown", ])
 ColourTernary(mapOpt, spectrum = viridisLite::viridis(256L, alpha = 0.6))

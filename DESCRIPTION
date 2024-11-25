@@ -1,16 +1,21 @@
 Package: MultiSppMaturityDelayStability
 Type: Package
 Title: Stability Analysis for Multispecies Model with Delayed Maturity
-Version: 0.1.0
-Date: 2024-11-08
-Authors@R: person(c("Geoffrey", "R."), "Hosack", email = "geoff.hosack@csiro.au",
-  role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6462-6817"))
+Version: 0.1.1
+Date: 2024-11-26
+Authors@R: c(person(c("Geoffrey", "R."), "Hosack", email = 
+  "geoff.hosack@csiro.au", role = c("aut", "cre"), comment = c(ORCID = 
+  "0000-0002-6462-6817")), person("Maud", "El-Hachem", email = 
+  "maud.el-hachem@csiro.au", role = "aut", comment = c(ORCID = 
+  "0000-0002-9312-6109")), person(c("Nicholas", "J."), "Beeton", email = 
+  "nick.beeton@csiro.au", role = "aut", comment = c(ORCID = 
+  "0000-0002-8513-3165")))
 Copyright: Commonwealth Scientific and Industrial Research Organisation (CSIRO) 
   ABN 41 687 119 230
-Description: Numerical and graphical analyses are provided to reproduce
-  the numerical demonstration of the local stability analysis for three species
-  of competing mosquito species with delayed maturity as supplementary material
-  for the article "Stability of difference equations with interspecific density 
+Description: Numerical and graphical analyses are provided to reproduce the 
+  numerical demonstration of the local stability analysis for three species of 
+  competing mosquito species with delayed maturity as supplementary material for
+  the article "Stability of difference equations with interspecific density 
   dependence, competition, and maturation delays". 
 Suggests:
   knitr,
