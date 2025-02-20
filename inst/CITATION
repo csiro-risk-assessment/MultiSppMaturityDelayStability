@@ -1,2 +1,15 @@
 ## R package reference generated from DESCRIPTION metadata
 citation(auto = meta)
+
+# article
+bibentry(
+  bibtype = "article",
+  author  = c(person(c("Geoffrey", "R."), "Hosack"), person("Maud", "El-Hachem"),
+    person(c("Nicholas", "J."), "Beeton")),
+  journal =  "arXiv",
+  title   = "Stability of difference equations with interspecific density
+    dependence, competition, and maturation delays",
+  year    = "2025",
+  note    = "[q-bio.PE]",
+  url     = "https://doi.org/10.48550/arXiv.2502.13426"
+)
